@@ -1,0 +1,4 @@
+sample_id	spatial_path	spatial_filetype	spatial_counts
+Human_LN	data/V1_Human_Lymph_Node	visium	filtered_feature_bc_matrix.h5
+Human_LN_alt	data/V1_Human_Lymph_Node	visium	filtered_feature_bc_matrix.h5
+Human_heart	data/V1_Human_Heart	visium	filtered_feature_bc_matrix.h5
