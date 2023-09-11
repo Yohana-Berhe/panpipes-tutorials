@@ -9,14 +9,19 @@ For all the tutorials we will append the `--local` command which ensures that th
 Create a main `spatial` directory to start processing samples and inside it, `ingestion`.
 
 ```
-mkdir spatial & cd $_
-mkdir ingestion & cd $_
+mkdir spatial & cd spatial
+mkdir ingestion & cd ingestion
 ```
 You can download the input datasets we will use for this example from the 10x database.
 [Human Lymph node](https://support.10xgenomics.com/spatial-gene-expression/datasets/1.0.0/V1_Human_Lymph_Node)
 [Human Heart](https://www.10xgenomics.com/resources/datasets/human-heart-1-standard-1-0-0)
 
-(These are the same datasets you'd be able to dowload using `sc.datasets.visium_sge(sample_id="V1_Human_Lymph_Node")`)
+You can use the following code to download the data:
+```
+python -c "import scanpy; scanpy.datasets.visium_sge(sample_id='V1_Human_Lymph_Node')"
+python -c "import scanpy; scanpy.datasets.visium_sge(sample_id='V1_Human_Heart')"
+
+```
 
 Inside the `ingestion` directory, you should have a directory with all the data you downloaded 
 
