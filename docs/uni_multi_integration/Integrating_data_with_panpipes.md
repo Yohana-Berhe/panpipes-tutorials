@@ -102,7 +102,7 @@ once this is finished, you will find a new object in the main directory, namely 
 let's create a new directory 
 
 ```
-mdkir sub_integration & cd $_
+mdkir sub_integration && cd $_
 ln -s ../teaseq_corrected.h5mu teaseq_temp.h5mu
 cp ../pipeline.yml .
 ```
@@ -115,7 +115,7 @@ For example:
 
 
 ```
-mkdir batch_correction & cd $_
+mkdir batch_correction && cd $_
 ln -s ../../batch_correction/umap_multimodal_wnn.csv umap_multimodal_wnnnobatch.csv
 ```
 

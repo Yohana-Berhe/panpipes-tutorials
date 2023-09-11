@@ -9,7 +9,7 @@ Let's create a clustering folder where we can run our workflow.
 *As usual, customize your project folder structure as works best for you!*
 
 ```
-mkidr clustering & cd $_
+mkidr clustering && cd $_
 ```
 
 now run `panpipes clustering config` . Inspect and customize the yml (or use the yml we provide in [clustering](../clustering/pipeline.yml))

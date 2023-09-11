@@ -4,7 +4,7 @@ Deconvoluting spatial data with panpipes
 The `deconvolution_spatial` workflow provides the possibility to run deconvolution for spatial data. 
 Let's run the following commands to create the directory `deconvolution` and to create the `pipeline.yml` and `pipeline.log` files: 
 ```
-mkdir deconvolution & cd $_
+mkdir deconvolution && cd $_
 panpipes deconvolution_spatial config --local
 ```
 

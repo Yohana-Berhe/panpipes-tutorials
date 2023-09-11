@@ -7,7 +7,7 @@ Following from the ingestion tutorial, we're in the main `spatial` directory. We
 ```
 # if you are in spatial/ingestion
 # cd ..
-mkdir preprocessing & cd $_
+mkdir preprocessing && cd $_
 
 ```
 

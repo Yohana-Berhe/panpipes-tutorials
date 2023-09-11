@@ -9,8 +9,8 @@ For all the tutorials we will append the `--local` command which ensures that th
 Create a main `spatial` directory to start processing samples and inside it, `ingestion`.
 
 ```
-mkdir spatial & cd spatial
-mkdir ingestion & cd ingestion
+mkdir spatial && cd $_
+mkdir ingestion && cd $_
 ```
 You can download the input datasets we will use for this example from the 10x database.
 [Human Lymph node](https://support.10xgenomics.com/spatial-gene-expression/datasets/1.0.0/V1_Human_Lymph_Node)
